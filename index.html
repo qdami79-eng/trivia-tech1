@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Trivia Tech!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="contenedor-trivia">
+        <button id="btn-musica">🎵 Reproducir Música</button>
+        
+        <h1>🧠 ¡Super Trivia Tech!</h1>
+        
+        <div id="pantalla-pregunta">
+            <p id="texto-pregunta">¿Cuál de estos componentes se usa para mostrar texto en Arduino?</p>
+            <div class="opciones">
+                <button class="opcion-btn" onclick="verificarRespuesta('A')">A) Un motor</button>
+                <button class="opcion-btn" onclick="verificarRespuesta('B')">B) Una pantalla LCD</button>
+                <button class="opcion-btn" onclick="verificarRespuesta('C')">C) Un cable pelado</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
